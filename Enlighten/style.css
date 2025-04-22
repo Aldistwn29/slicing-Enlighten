@@ -1,0 +1,93 @@
+body {
+    font-family: "Poppins",-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, Cantarell, Ubuntu, roboto, noto, helvetica, arial, sans-serif;
+}
+
+
+.layout {
+    display:flex;
+    height:100%;
+}
+
+.layout-left {
+    width:60%;
+    padding:120px;
+}
+
+.layout-right {
+    width:40%;
+    background-image: url('images/Rectangle\ 1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.brand {
+    font-size:20px;
+    font-weight:700;
+    font-style:italic;
+    margin-bottom:130px;
+}
+
+.badge {
+    display:inline-block;
+    background: rgba(17, 63, 226, 0.1);
+    border-radius: 100px;
+    color:#113fe2;
+    font-weight:700;
+    font-size:14px;
+    text-transform: uppercase;
+    padding:5px 15px;
+    letter-spacing: 2px;
+    margin-bottom:10px;
+}
+
+.heading {
+    width:457px;
+    font-weight:700;
+    font-size:44px;
+    color: #0A1B59;
+    margin-bottom:15px;
+    line-height: 66px;
+}
+
+.lead {
+    width:457px;
+    font-weight:400;
+    font-size:16px;
+    color: rgba(10, 27, 89, 0.6);
+    line-height: 32px;
+}
+
+.invite-form {
+    display:flex;
+    margin-top: 30px;
+
+}
+
+.invite-form input {
+    width:541px;
+    padding: 20px 10px;
+    border-radius:8px;
+    border: 1px solid rgba(10, 27, 89, 0.2);
+    margin-right: 20px;
+}
+
+.invite-form button {
+    padding:10px 30px;
+    flex-shrink: 0;
+    background-color: #113FE2;
+    color:#fff;
+    border-radius:8px;
+    border:none;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.form-text {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(10, 27, 89, 0.6);
+    line-height:24px;
+    margin-top: 10px;
+}
